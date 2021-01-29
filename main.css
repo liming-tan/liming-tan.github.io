@@ -10,7 +10,7 @@ nav{
     display: flex;
     position: fixed;
     width: 100%;
-    background:rgb(0, 0, 0, 0.5);
+    background:rgb(0, 0, 0, 1);
     overflow:auto;
     z-index: 1;
 }
@@ -80,6 +80,9 @@ max-height: 74%;
     padding-top: 35px;
     text-align: center;
 }
+.text-size {
+    font-size: 40px;
+}
 .pad {
     padding-left: 25px;
 }
@@ -138,6 +141,10 @@ padding-left: 30px;
 }
 .textpad {
     padding-left: 30px;
+    text-align: center;
+}
+.rightpad {
+    padding-right: 50px;
     text-align: center;
 }
 .textpadtop {
